@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        numeros1 = new Array(10);
+        numeros2 = new Array(10);
+        numerosF = new Array(10);
+
+       for(var x  = 0;x<10;x++ ){
+       numeros1[x] = parseInt (prompt("Digite o " + (x + 1) + "º numeros(1º Array)"));
+    document.write(numeros1[x] + "|");
+       }
+
+       document.write("<br><br>")
+
+       for(var x  = 0;x<10;x++ ){
+       numeros2[x] = parseInt (prompt("Digite o " + (x + 1) + "º numeros(2º Array)"));
+    document.write(numeros2[x] + "|");
+       }
+
+       document.write("<br><br>")
+
+       for(var x  = 0;x<10;x++ ){
+   (numerosF[x] = numeros1[x] + numeros2[x]);
+       }
+       for(var x  = 0;x<10;x++ ){
+        numerosF[x] = numeros1[x] + numeros2[x];
+        document.write(numerosF[x] + "|");
+       }
+    </script>  
+</body>
+</html>

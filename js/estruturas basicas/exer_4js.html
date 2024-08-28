@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+let nome = prompt('Digite seu nome:')
+let anoAtual = prompt ('Digite o ano atual:')
+let ano = prompt ('Digite o ano em que nasceu:')
+
+
+
+
+document.write("Nome: " + nome,'<br>');
+document.write("anoAtual: " + anoAtual,'<br>');
+document.write("ano: " + ano,'<br>');
+
+var idade = anoAtual - ano
+if (idade == 0  ){
+        document.write('Voce nao nasceu ainda')
+}
+
+         else if  (idade >= 18 ){
+            document.write('Voce já é de maior e pode fazer a carteira de motorista')
+        }
+      
+      else if (idade >= 16){
+        document.write('Voce já pode votar')
+     
+      }
+</script>
+<body>
+    
+</body>
+</html>

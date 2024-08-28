@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         var numeros = new Array(10);
+         var soma = 0;
+      
+      for(var x = 0;x< 10;x++){
+         numeros[x] = parseInt(prompt("Digite o " + (x + 1) + "º número"));
+         soma = soma + numeros[x];   
+      }
+      for(var x = 0; x< 10; x++){
+        document.write(numeros[x] +'<br>');
+    }
+    document.write("A soma de todos os números é: " + soma);
+    </script>
+    
+</body>
+</html>
